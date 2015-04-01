@@ -9,6 +9,8 @@ repository = "https://github.com/iron/router"
 documentation = "http://ironframework.io/doc/router/index.html"
 
 [dependencies]
-iron = "*"
 route-recognizer = "*"
 
+
+[dependencies.iron]
+git = "https://github.com/iron/iron.git"
